@@ -3,3 +3,6 @@ UE4HTML5SampleSource.sln
 Binaries/
 Intermediate/
 Saved/
+Build/package-lock.json
+Build/node_modules/
+Build/
