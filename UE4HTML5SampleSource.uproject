@@ -4,16 +4,19 @@
 	"Category": "",
 	"Description": "",
 	"Modules": [
-    {
-      "Name": "UE4HTML5SampleSource",
-      "Type": "Runtime",
-      "LoadingPhase": "Default",
-      "WhitelistPlatforms": [
-        "Mac",
-        "Win32",
-        "Win64",
-        "HTML5"
-      ]
-    }
+		{
+			"Name": "UE4HTML5SampleSource",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Mac",
+				"Win32",
+				"Win64",
+				"HTML5"
+			],
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
 	]
 }
