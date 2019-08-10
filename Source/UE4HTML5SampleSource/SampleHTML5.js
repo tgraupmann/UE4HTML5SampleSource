@@ -6,7 +6,7 @@ var UE_SampleHTML5 = {
         // save a reference to the listener to later call back into C++
         UE_JSSampleHTML5.Callback_RegisterStringFunction = function (str) {
             var cname = _malloc(str.length + 1);
-            writeStringToMemory(str, cname);
+            stringToUTF8(str, cname);
             Runtime.dynCall('vi', listener, [cname]);
         }
     },
