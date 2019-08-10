@@ -2,5 +2,8 @@
 #pragma  once
 
 extern "C" {
+	// invoke JS
 	void UE_InitSampleHTML5();
+	// register function to call from JS
+	void SampleHTML5_RegisterStringFunction(void(*listener)(const char* str));
 }
